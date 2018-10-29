@@ -23,8 +23,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
 
-        <!--
-        docker properties -->
+        <!--docker properties -->
         <docker.image.prefix>jackie</docker.image.prefix>
         <docker.project.name>dockerdemo</docker.project.name>
     </properties>
