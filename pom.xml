@@ -23,9 +23,11 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
 
-        <!--
-        docker properties -->
-        <docker.image.prefix>10.110.1.13:8090</docker.image.prefix>
+        <!--docker properties -->
+        <docker.image.prefix>10.110.1.18:80</docker.image.prefix>
+<!--
+        <docker.image.prefix>com.jackie</docker.image.prefix>
+-->
         <docker.project.name>demo</docker.project.name>
     </properties>
 
@@ -39,6 +41,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
         </dependency>
     </dependencies>
 
